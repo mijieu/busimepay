@@ -1,0 +1,17 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://java.sun.com/jsf/html">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2">
+			</div>
+			<div class="col-sm-9 col-sm-offset-6 col-md-10 col-md-offset-2 main">
+				<h3 class="titleH3">#{msg['content.title']}</h3>				
+			</div>
+			<div class="row">
+				<ui:insert name="content" />
+			</div>
+		</div>
+	</div>
+</ui:composition>
